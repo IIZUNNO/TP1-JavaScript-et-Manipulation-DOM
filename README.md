@@ -1,7 +1,7 @@
 # TPI JavaScript et Manipulation DOM
 
 ## 📋 Description
-Projet académique de Licence 3 - Développement web front-end.  
+Premier TP de HTML/Javascript 
 Application interactive démontrant la manipulation du DOM via JavaScript.
 
 ## 🚀 Fonctionnalités implémentées
