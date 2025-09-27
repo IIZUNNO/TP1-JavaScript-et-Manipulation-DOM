@@ -20,10 +20,8 @@ Application interactive démontrant la manipulation du DOM via JavaScript.
 
 ## 📥 Installation & Utilisation
 
-\`\`\`bash
 # 1. Cloner le dépôt
 git clone https://github.com/IIZUNNO/TPI-JavaScript-et-Manipulation-DOM.git
 
 # 2. Ouvrir le fichier HTML
 open src/index.html
-\`\`\`
