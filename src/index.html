@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>TP HTML / JS</title>
+  <style>
+    .box {
+      border: 1px solid black;
+      width: 400px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: red;
+    }
+    h3 {
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h3>Lien et images</h3>
+    <a href="https://www.wikipedia.org">La page principale de Wikipedia</a><br><br>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
+         alt="Google" width="200">
+  </div>
+
+  <div class="box">
+  <h3>Des éléments !</h3>
+  <input type="text" value="Premiers pas avec Javascript"><br><br>
+  <input type="radio" name="choix" id="radio1" value="1"> HP
+<input type="radio" name="choix" id="radio2" value="2"> Casque
+<input type="radio" name="choix" id="radio3" value="3"> Bluetooth <br><br>
+<input type="password" value="azerty"><br><br>
+<input type="range" min="0" max="100" value="50"> Volume <br>
+</div>
+    <input type="password" value="azerty"><br><br>    0 <br>
+    <input type="checkbox"> Une case à cocher <br><br>
+    Date : <input type="date"> <br><br>
+    <input type="button" value="Ok">
+  </div>
+
+  <div class="box">
+    <h3>Barres de progression</h3>
+    Téléchargement en cours : <progress value="60" max="100"></progress><br>
+    Espace disponible : <progress value="30" max="100"></progress>
+  </div>
+
+  <!-- On relie le JS externe -->
+  <script src="script.js"></script>
+</body>
+</html>
 
